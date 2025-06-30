@@ -1,4 +1,5 @@
 # Gemini AI Chat and History Project
+[![Python Unit Tests](https://github.com/kael27w/1stCodioProject/actions/workflows/unittests.yml/badge.svg)](https://github.com/kael27w/1stCodioProject/actions/workflows/unittests.yml)
 
 ## Overview
 
