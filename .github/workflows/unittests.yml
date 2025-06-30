@@ -28,11 +28,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      # Step 3: Installs your project's dependencies from requirements.txt
+      # Step 3: Installs your project's dependencies
+      # CORRECTED: This step now explicitly installs the libraries your project needs.
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install requests pandas sqlalchemy
 
       # Step 4: Runs your unit tests using the correct test file name
       - name: Test with unittest
